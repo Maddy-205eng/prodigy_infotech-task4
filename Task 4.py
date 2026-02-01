@@ -1,4 +1,4 @@
-# Tic Tac Toe Game - Two Players (X and O)
+
 
 def show_board(board):
     for i in range(3):
@@ -67,3 +67,4 @@ def play_game():
         player = "O" if player == "X" else "X"
 
 play_game()
+
